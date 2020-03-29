@@ -200,3 +200,37 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
 </div>
 </div>
 
+<!-- Activité Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="work">
+ <h1 class="section-title-1">Activitées</h1>
+        <div class="border"></div>
+  <p class="w3-center w3-large">Quelque Activité Fait par Les étudiants de Notre école</p>
+  <?php if( have_rows('event') ): ?>
+  <div class="w3-row-padding"> 
+  <?php while( have_rows('event') ): the_row(); 
+           // vars
+            $image = get_sub_field('img');
+            $content = get_sub_field('ev');
+            $link = get_sub_field('de');
+            $det = get_sub_field('date');
+             ?>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="<?php echo $image?>" alt="Norway" style="width:300px ; height:200px;" class="w3-hover-opacity">
+      <div class="w3-container w3-white" style="height:300px;width:300px ;">
+        <p class="w3-center"><b><?php echo $content;?></b></p>
+        <p class="w3-opacity w3-center"><?php echo $det;?></p>
+        <p><?php echo $link;?></p>
+      </div>
+    </div> <?php endwhile;?>
+  </div>
+  <?php endif;?>
+ 
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
