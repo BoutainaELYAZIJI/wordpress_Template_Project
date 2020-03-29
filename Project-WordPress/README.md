@@ -5,4 +5,4 @@
   <p> -> apt-get update apt-get install mysql-server mysql-client</p>
   <p>Utilisez la commande suivante pour accéder à la console de service MySQL.</p>
   <li>$ mysql -u root -p</li>
-  <img src="/img/Screenshot_2020-03-29 ESTSB(6).png">
+  <img src="Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(6).png">
