@@ -131,8 +131,13 @@ Dans notre exemple, l'URL suivante a été entrée dans le navigateur:
 
  :point_right:   http://192.168.1.102/wordpress
 
-L'assistant d'installation de WordPress sera présenté.
-puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez la confirmation de votre installation WordPress.
-Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de passe.
-
-Une fois la connexion établie, le tableau de bord WordPress s’affiche.
+<p>L'assistant d'installation de WordPress sera présenté.</p>
+<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/langue-installation-wordpress.png">
+<p>
+puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez la confirmation de votre installation WordPress.</p>
+<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/installer-wordpress2-271x300.png">
+<p>
+Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de passe.</p>
+<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/xampp_wordpress-installation_4-1.png">
+<p>Une fois la connexion établie, le tableau de bord WordPress s’affiche.<p>
+<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/screen-themes.png">
