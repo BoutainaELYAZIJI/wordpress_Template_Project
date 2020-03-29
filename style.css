@@ -1,0 +1,274 @@
+/*
+ * Theme Name: EST SIDI BENNOUR 
+ * Description:théme modéle d'un site web d'une école supérieure de technologie de sidi bennour pour intégré les
+  fonctionalitées de wordpress
+ * Theme URI: https://github.com/BouTaina11/Template_WordPress
+ * Author: Sokaina Daabal & ELYAZIJI Boutaina
+ * Author URI: http:/githhub.com/sokainadaabal ; https://github.com/BouTaina11
+ * Version: 1.0.0
+ * License:1.0.0
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: two-columns, one-column, right-sidebar
+ * Text Domain: basic
+ */
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+      
+/* Full height image header */
+.bgimg-1 {
+          background-position: center;
+          background-size: cover;
+       /*   background-image:url('/wordpress/wp-content/themes/estsb/img/hello.jpg');
+          */min-height: 100%;
+        }
+.w3-bar .w3-button  {
+         padding:17px;
+        
+        }
+.slideanim {visibility:hidden;}
+.container-fluid {
+             padding: 60px 50px;
+        }
+
+.div.w3-top{
+	  background: rgba(0, 0, 0, 0.5);
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+  #pagination{ float: right; margin: 0 auto; list-style: none; padding: 0; font-size: 11px; }
+  #pagination li{ float: left; margin: 0 2px; background-color: #f5f5f5; border: 1px solid #ccc; padding: 3px 5px; }
+  #pagination li a{ display: block; }
+
+  #pagination li.activePage{ border: none; background: none; }
+  
+  
+  *{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2000px;
+  position:relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  background-size: cover;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text{
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+ position: relative;
+            top: -70px;
+
+}
+
+.active, .dot:hover {
+  background-color: #0abde3;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 60s;
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.w3-container .w3-light-grey{
+
+	margin-bottom: : -20px;
+position: relative;
+}
+
+.containers {
+  position: relative;
+  max-width: 100%; /* Maximum width */
+  margin: 0 auto;
+  height: auto; /* Center it */
+}
+
+.containers .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  
+}
+
+.w3-black, .w3-hover-black:hover {
+    color: #fff!important;
+    top: -22px;
+position: relative;
+  }
+
+
+  .slideshow-container{
+background: linear-gradient(45deg, #0d1128 0%, #82ccdd 100%);
+  }
+
+
+.services-section{
+  background: url("/interfaceWP/wp-content/themes/ESTSBWP/img/bg.jpg");
+  background-size: cover;
+  padding: 60px 0;
+  top: -100px;*
+  position: relative;
+}
+.inner-width{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+.section-title{
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.section-title-1{
+  text-align: center;
+  color: #0abde3;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.border{
+  width: 160px;
+  height: 2px;
+  background: #0abde3;
+  margin: 40px auto;
+}
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #fff;
+  color: #0abde3;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.service-icon i{
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+.service-box:hover .service-icon{
+  background: #0abde3;
+  color: #fff;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-desc{
+  font-size: 14px;
+}
+
+@media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
