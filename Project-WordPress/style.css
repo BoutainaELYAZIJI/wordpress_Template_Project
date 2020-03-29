@@ -12,6 +12,7 @@
  * Text Domain: basic
  */
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
       
 /* Full height image header */
 .bgimg-1 {
@@ -144,9 +145,9 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 }
 
 
-.w3-container .w3-light-grey{
+.w3-container{
 
-	margin-bottom: : -20px;
+margin-bottom:20px;
 position: relative;
 }
 

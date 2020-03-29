@@ -11,7 +11,6 @@
   </div>
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">ELYAZIJI & DAABAL</a></p>
 </footer>
- 
 <script>
 // Modal Image Gallery
 function onClick(element) {
@@ -35,10 +34,6 @@ function w3_open() {
 function w3_close() {
     mySidebar.style.display = "none";
 }
-
-
-
-
 
 var slideIndex = 0;
 showSlides();

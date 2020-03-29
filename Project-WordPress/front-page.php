@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 <?php get_header(); ?>
 
 
 <!-- Slideshow container -->
 
 <div class="slideshow-container">
-
-  \ESTSBTemplate\Project-WordPress\img
 
 <!-- Full-width images with number and caption text -->
 <div class="mySlides fade">
@@ -36,7 +33,6 @@
 </div></div>
 
 </header>
-=======
 <!-- Info Section  -->
 <?php $hero=get_field('main_information');?>  
 <div class="w3-container w3-light-grey " style="padding:128px 16px">
@@ -233,7 +229,7 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
 <!-- Skills Section -->
 <div class="w3-container  w3-padding-64">
   <div class="w3-row-padding">  
-  <h1 class="section-title-1">Article</h1>
+  <h1 class="section-title-1">Articles</h1>
         <div class="border"></div>
 	<section id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
@@ -274,12 +270,10 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
 		</div>
 	</section>
 </div>
-
-    
   </div>
 </div>
 <!-- Container (Contact Section) -->
-<div class="w3-container w3-light-grey " style="padding:128px 16px" id="contact">
+<div class="w3-container" style="padding:128px 16px" id="contact">
   <h1 class="section-title-1">Contact</h1>
         <div class="border"></div>
   <p class="w3-center w3-large">Envoyer vote opinion  dans un message</p>
