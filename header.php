@@ -43,7 +43,7 @@
       <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-address-book"></i> CONTACT</a>
       <div class="container w3-bar-item">
         
-        <?php get_search_form()?>
+         <?php get_search_form()?>
         
        </div>
       </div>   
