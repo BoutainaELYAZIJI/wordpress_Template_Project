@@ -136,7 +136,3 @@ puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez
 Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de passe.
 
 Une fois la connexion établie, le tableau de bord WordPress s’affiche.
-<<<<<<< 665f55f3e346066cd19e2235a5e2569c71a9437e
-=======
-
->>>>>>> commit 1 for readme.md
