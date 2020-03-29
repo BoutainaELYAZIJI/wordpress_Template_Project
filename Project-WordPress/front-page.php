@@ -168,6 +168,7 @@
 <?php endif;?> 
 <!--end administration Section-->
 >>>>>>> Administration
+<<<<<<< eead41281b6ad194f139e9b39095d72c837770fc
 <!-- Promo Section "Statistics" --> 
 <div class="containers">
   <img src="/interfaceWP/wp-content/themes/ESTSBWP/img/course-5.jpg" alt="Notebook" style="width:100%; height:500px;">
@@ -225,6 +226,9 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
   </div>
   <?php endif;?>
  
+=======
+
+>>>>>>> Front-Page
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
@@ -234,3 +238,90 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
   </div>
 </div>
 
+<<<<<<< eead41281b6ad194f139e9b39095d72c837770fc
+=======
+<!-- Skills Section -->
+<div class="w3-container  w3-padding-64">
+  <div class="w3-row-padding">  
+  <h3 class="w3-center">ARTICLE</h3>
+	<section id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+		  <!-- Posts
+                  ============================================= -->
+                  <div class="w3-row">
+                  <?php
+    $args = array(
+        'post_type' => 'post',
+        'orderby' => 'ID',
+        'post_status' => 'publish',
+        'order' => 'DESC',
+        'posts_per_page' => -1 
+    );
+    $result = new WP_Query($args);
+    if ($result->have_posts()) : ?>
+    <?php while ($result->have_posts()) :
+    $result->the_post(); get_template_part( '/partials/post/content','excerpt');?>
+                  
+                    <?php  endwhile;endif;?>
+                  </div><!-- #posts end -->
+
+                  <!-- Pagination
+                  ============================================= -->
+                  <div class="row mb-3">
+                      <div class="col-12">
+
+                      <div class="btn btn-style pull-left"><?php next_posts_link( '« Older Posts' ); ?></div>
+<div class="btn btn-style pull-right"><?php previous_posts_link( 'Newer Posts »' ); ?></div>
+
+                      </div>
+                      
+                  </div>
+                  <!-- .pager end -->
+
+              </div><!-- .postcontent end -->
+
+		</div>
+	</section>
+</div>
+
+    
+  </div>
+</div>
+<!-- Container (Contact Section) -->
+<div class="w3-container w3-light-grey " style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-center w3-large">Envoyer vote opinion  dans un message</p>
+  <div class="row">
+    <div class="col-sm-5 ">
+      <p><span class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></span>Jabrane khalile Jabrane  avenue 24 el jadida</p>
+      <p><span class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></span> +212 5 22 44 77 88 95</p>
+      <p><span class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"></span>contact_estsb@mail.com</p>
+    </div>
+    <div class="col-sm-7 ">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="w3-input  w3-border" id="name" name="name" placeholder="Nom" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="w3-input w3-border" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="w3-input w3-border" id="comments" name="comments" placeholder="Commetaire" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+        <button class="w3-button w3-black pull-right" type="submit">
+          <i class="fa fa-paper-plane"></i>
+                  Envoyer  </button>
+        </div>
+      </div>
+    </div>
+    <div class="row w3-center">
+     <?php $hero=get_field('map');?>  
+     <?php echo $hero['map'];?>
+    </div>
+</div></div>
+<br>
+<?php get_footer(); ?>
+
+>>>>>>> Front-Page
