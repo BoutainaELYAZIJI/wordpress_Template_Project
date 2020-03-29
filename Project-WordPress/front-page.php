@@ -168,3 +168,35 @@
 <?php endif;?> 
 <!--end administration Section-->
 >>>>>>> Administration
+<!-- Promo Section "Statistics" --> 
+<div class="containers">
+  <img src="/interfaceWP/wp-content/themes/ESTSBWP/img/course-5.jpg" alt="Notebook" style="width:100%; height:500px;">
+  <div class="content">
+     <h1 class="section-title-1">Ecole supérieure de technologie Sidi Bennour</h1>
+    <p>Un établissement public d’enseignement supérieur à finalité de formation 
+des Techniciens Supérieurs.Elle a été créée en Août 2016 par le Ministère de l’Enseignement Supérieur,
+ de la Formation des Cadres et de la Recherche Scientifique du Royaume du Maroc.L’Ecole Supérieure de 
+Technologie Sidi Bennour (ESTSB) est une composante de l’Université Chouaib Doukkali d’El Jadida. 
+Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qualifiés et immédiatement
+ opérationnels après leur sortie de l’Ecole en tant que collaborateurs d’ingénieurs et de managers.</p>
+<div class="w3-container w3-row w3-center w3-black w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+30</span>
+    <br>Enseignants certifiés
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+1000</span>
+    <br>Etudiants
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+50</span>
+    <br>cours
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">+200</span>
+    <br>Projets
+  </div>
+</div>
+</div>
+</div>
+
