@@ -52,6 +52,7 @@
   </div>
 </div>
 <!-- end info Section -->
+<<<<<<< b2c4d0c700418737022b329612391084ad789d30
 >>>>>>> 13a740028a11589ccebe30cd478d15bed51cbcd7
 
 
@@ -131,3 +132,39 @@
 </div>
 
 
+=======
+<!--administration Section -->
+<?php if( have_rows('prof') ): ?>
+  <?php $hero=get_field('proffeseur');?> 
+  <div class="w3-container " style="padding:128px 16px" id="team">
+  <h3 class="w3-center "><?php echo $hero['titre'];?></h3>
+  <p class="w3-center w3-large"><?php echo $hero['sous_titre'];?></p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+  <?php while( have_rows('prof') ): the_row(); 
+           // vars
+            $image = get_sub_field('img');
+            $content = get_sub_field('name');
+            $link = get_sub_field('branche');
+            $det = get_sub_field('detaille');
+             ?>
+    <div class="w3-col l3 m6 w3-margin-bottom" >
+      <div class="w3-card">
+        <img src="<?php echo $image?>"  style="width:100% ;height: 308px;" class="w3-hover-opacity" >
+        <div class="w3-container" >
+         <div class="w3-container" style="width:295px ; height:250px;">
+          <h3><?php echo $content;?></h3>
+          <p class="w3-opacity"><?php echo $link;?></p>
+          <p><?php echo $det;?></p>
+         </div>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+        </div>
+      </div>
+      </div><?php endwhile;?>
+    </div>  
+</div>
+</div> 
+</div>
+</div>
+<?php endif;?> 
+<!--end administration Section-->
+>>>>>>> Administration
