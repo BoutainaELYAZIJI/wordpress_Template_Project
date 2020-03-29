@@ -53,3 +53,81 @@
 </div>
 <!-- end info Section -->
 >>>>>>> 13a740028a11589ccebe30cd478d15bed51cbcd7
+
+
+
+
+
+
+<!-- About Section -->
+<div class="services-section">
+      <div class="inner-width">
+        <h1 class="section-title">What we offer</h1>
+        <div class="border"></div>
+        <div class="services-container">
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-school"></i>
+            </div>
+            <div class="service-title">Safety First</div>
+            <div class="service-desc">
+               write here the description.
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <div class="service-title">Regular Classes</div>
+            <div class="service-desc">
+               write here the description.
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-chalkboard-teacher"></i>
+            </div>
+            <div class="service-title">Certified Teachers</div>
+            <div class="service-desc">
+               write here the description.
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-chalkboard"></i>
+            </div>
+            <div class="service-title">Sufficient Classrooms</div>
+            <div class="service-desc">
+               write here the description..
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <div class="service-title">Creative Lessons</div>
+            <div class="service-desc">
+              write here the description.
+            </div>
+          </div>
+
+          <div class="service-box">
+            <div class="service-icon">
+              <i class="fas fa-theater-masks"></i>
+            </div>
+            <div class="service-title">clubs & sports</div>
+            <div class="service-desc">
+              write here the description.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
