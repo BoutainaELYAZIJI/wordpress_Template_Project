@@ -89,9 +89,8 @@ Vérifiez l'état du service Apache. :white_check_mark:
 ## :exclamation: Installation de WordPress
 <p>Après avoir terminé la configuration de MySQL et Apache, nous pouvons commencer l’installation de WordPress.</p>
 <p>Après avoir terminé la configuration de MySQL et Apache, nous pouvons commencer l’installation de WordPress.</p>
- :point_right:
-
- Téléchargez la dernière version de WordPress et extrayez le package. 
+ 
+ :point_right: Téléchargez la dernière version de WordPress et extrayez le package. 
 
 > *  cd /tmp
 > *  wget https://wordpress.org/latest.tar.gz
@@ -101,10 +100,10 @@ Déplacez le dossier WordPress dans votre répertoire de lecteur racine Apache.
 </p>
 <p>
 Donnez à l'utilisateur www-data le contrôle total sur le répertoire WordPress et ses fichiers.
-</p>
+
 >  mv wordpress /var/www/html/
 > chown www-data.www-data /var/www/html/wordpress/* -R
-
+</p>
 <p>
 Créez et éditez le fichier de configuration WordPress wp-config.php.
 <p>
