@@ -5,9 +5,9 @@
 # WordPress :
 
 # Présentation :bell: :
-<p>
+
  WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par l'entreprise américaine Automattic.
-</p>
+
 # Installation :
 ## :exclamation: Installation du Mysql 
 <p>Wordpress  nécessite un système de base de données pour stocker toute sa configuration.
