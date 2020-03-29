@@ -22,7 +22,7 @@
     <ul class="w3-ul w3-hoverable w3-white">
      <?php   while (have_posts()) : the_post(); ?>
       <li class="w3-padding-16">
-        <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+        <img src="/wordpress/wp-content/themes/estsb/img/cc.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
         <span class="w3-large"><?php the_title();?></span><br>
         <span><?php echo get_the_date();?></span>
       </li> 

@@ -27,7 +27,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 				?>
 				<?php get_template_part( '/partials/post/content','excerpt');?>
 			<?php endwhile; ?>
-			<?php twentythirteen_paging_nav(); ?>
+			
 		<?php else : ?>
 			<?php get_template_part( '/partials/post/content', 'none' ); ?>
 		<?php endif; ?>
