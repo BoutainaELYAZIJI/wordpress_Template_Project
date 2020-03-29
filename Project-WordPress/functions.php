@@ -1,4 +1,16 @@
 <?php
+function theme_styles()  
+{ 
+
+		// Load all of the styles that need to appear on all pages
+	wp_enqueue_style( 'main', get_template_directory_uri() . '/style.css' );
+	// Conditionally load the FlexSlider CSS on the homepage
+	if(is_page('home')) {
+		wp_enqueue_style('flexslider');
+	}
+
+}
+add_action('wp_enqueue_scripts', 'theme_styles');
 //custum image 
 add_image_size('product_image small',300,300,false);
 add_image_size('product_image_large',700,700,false);
