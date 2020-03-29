@@ -40,11 +40,11 @@ Utilisez la commande Ubuntu APT pour installer le serveur Apache.
 <p>
 Optionnel Utilisez la commande suivante pour installer les modules PHP les plus utilisés d’Apache.
 </p>
-<ul>
-<li> apt-get install php7.2-xml php7.2-curl php7.2-gd php7.2-mbstring <li>
+ <ul>
+ <li> apt-get install php7.2-xml php7.2-curl php7.2-gd php7.2-mbstring </li>
 <li> apt-get install php7.2-bz2 php7.2-zip php7.2-xml php7.2-curl </li>
 <li> apt-get install php7.2-json php7.2-opcache php7.2-readline </li>
-<ul>
+</ul>
 <p>
 Optionnel Utilisez la commande suivante pour activer apache mod_rewrite et SSL.
 Activez le module SSL uniquement si vous envisagez de proposer du contenu HTTPS.
@@ -86,20 +86,14 @@ Vérifiez l'état du service Apache. :white_check_mark:
 > └─apache2-systemd.conf
 > Active: active (running) since Mon 2020-03-19 03:41:12 -02;
 
-
-
 ## :exclamation: Installation de WordPress
-
 <p>Après avoir terminé la configuration de MySQL et Apache, nous pouvons commencer l’installation de WordPress.</p>
 <p>
- Téléchargez la dernière version de WordPress et extrayez le package.
-</p> :point_left:
-
-
-
+ Téléchargez la dernière version de WordPress et extrayez le package.:point_left:
+</p> 
 > *  cd /tmp
-> *   wget https://wordpress.org/latest.tar.gz
-> *   tar -zxvf latest.tar.gz
+> *  wget https://wordpress.org/latest.tar.gz
+> *  tar -zxvf latest.tar.gz
 <p>
 Déplacez le dossier WordPress dans votre répertoire de lecteur racine Apache.
 </p>
@@ -134,7 +128,7 @@ Ouvrez votre navigateur et entrez l'adresse IP de votre serveur Web plus / wordp
 
 Dans notre exemple, l'URL suivante a été entrée dans le navigateur:
 
------> http://192.168.1.102/wordpress
+ :point_right:   http://192.168.1.102/wordpress
 
 L'assistant d'installation de WordPress sera présenté.
 puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez la confirmation de votre installation WordPress.
