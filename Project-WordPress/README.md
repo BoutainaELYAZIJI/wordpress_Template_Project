@@ -88,9 +88,11 @@ Vérifiez l'état du service Apache. :white_check_mark:
 
 ## :exclamation: Installation de WordPress
 <p>Après avoir terminé la configuration de MySQL et Apache, nous pouvons commencer l’installation de WordPress.</p>
-<p>
- Téléchargez la dernière version de WordPress et extrayez le package.:point_left:
-</p> 
+<p>Après avoir terminé la configuration de MySQL et Apache, nous pouvons commencer l’installation de WordPress.</p>
+ :point_right:
+
+ Téléchargez la dernière version de WordPress et extrayez le package. 
+
 > *  cd /tmp
 > *  wget https://wordpress.org/latest.tar.gz
 > *  tar -zxvf latest.tar.gz
@@ -135,9 +137,3 @@ puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez
 Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de passe.
 
 Une fois la connexion établie, le tableau de bord WordPress s’affiche.
-
-
-
-
-
-
