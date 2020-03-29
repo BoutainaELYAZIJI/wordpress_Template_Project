@@ -1,4 +1,8 @@
 # Project_WordPress
+
+# Installation
+
+
 ## :exclamation: Installation du Mysql 
 <p>Wordpress  nécessite un système de base de données pour stocker toute sa configuration.
 Utilisez la commande Ubuntu APT pour installer le serveur MySQL.</p>
@@ -24,15 +28,19 @@ Utilisez la commande Ubuntu APT pour installer le serveur MySQL.</p>
 > * quit;
 
 ## :exclamation: Installation d'Apache :
-<p>WordPress nécessite un serveur Web avec support PHP pour présenter ses pages Web.
-Utilisez la commande Ubuntu APT pour installer le serveur Apache.</p>
+<p>
+ WordPress nécessite un serveur Web avec support PHP pour présenter ses pages Web.
+Utilisez la commande Ubuntu APT pour installer le serveur Apache.
+</p>
 > * apt-get update
 > * apt-get install apache2 php7.2 php7.2-mysql libapache2-mod-php7.2
 > * service apache2 restar
 <p>
 Optionnel Utilisez la commande suivante pour installer les modules PHP les plus utilisés d’Apache.
 </p>
-
+>* apt-get install php7.2-xml php7.2-curl php7.2-gd php7.2-mbstring
+>* apt-get install php7.2-bz2 php7.2-zip php7.2-xml php7.2-curl
+>* apt-get install php7.2-json php7.2-opcache php7.2-readline
 
 <p>
 Optionnel Utilisez la commande suivante pour activer apache mod_rewrite et SSL.
@@ -42,9 +50,8 @@ Activez le module SSL uniquement si vous envisagez de proposer du contenu HTTPS.
 <p>
 Recherchez l'emplacement du fichier de configuration PHP sur votre système.
 </p>
-:heavy_check_mark:
 
-Editez le fichier de configuration php.ini.
+Editez le fichier de configuration php.ini.:heavy_check_mark:
 
 >  * updatedb
 >  * locate php.ini
@@ -82,11 +89,58 @@ Vérifiez l'état du service Apache. :white_check_mark:
 
 <p>Après avoir terminé la configuration de MySQL et Apache, nous pouvons commencer l’installation de WordPress.</p>
 <p>
- Téléchargez la dernière version de WordPress et extrayez le package. :point_left:
-</p> 
+ Téléchargez la dernière version de WordPress et extrayez le package.
+</p> :point_left:
 
 
 
->  cd /tmp
->  wget https://wordpress.org/latest.tar.gz
->  tar -zxvf latest.tar.gz
+> *  cd /tmp
+> *   wget https://wordpress.org/latest.tar.gz
+> *   tar -zxvf latest.tar.gz
+<p>
+Déplacez le dossier WordPress dans votre répertoire de lecteur racine Apache.
+</p>
+<p>
+Donnez à l'utilisateur www-data le contrôle total sur le répertoire WordPress et ses fichiers.
+</p>
+>  mv wordpress /var/www/html/
+> chown www-data.www-data /var/www/html/wordpress/* -R
+
+<p>
+Créez et éditez le fichier de configuration WordPress wp-config.php.
+<p>
+
+>  cd /var/www/html/wordpress
+>  mv wp-config-sample.php wp-config.php
+>  vi wp-config.php
+
+<p>Modifiez les informations de connexion à la base de données MySQL situées sur le fichier wp-config.file.</p>
+
+<p>A titre d'exemple, voici le fichier avec notre configuration.</p>
+
+> define('DB_NAME', 'wordpress');
+> define('DB_USER', 'wordpress');
+> define('DB_PASSWORD', 'sokaina');
+> define('DB_HOST', 'localhost');
+> define('DB_CHARSET', 'utf8');
+> define('DB_COLLATE', '');
+
+Configuration de WordPress sur Ubuntu Linux
+
+Ouvrez votre navigateur et entrez l'adresse IP de votre serveur Web plus / wordpress.
+
+Dans notre exemple, l'URL suivante a été entrée dans le navigateur:
+
+-----> http://192.168.1.102/wordpress
+
+L'assistant d'installation de WordPress sera présenté.
+puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez la confirmation de votre installation WordPress.
+Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de passe.
+
+Une fois la connexion établie, le tableau de bord WordPress s’affiche.
+
+
+
+
+
+
