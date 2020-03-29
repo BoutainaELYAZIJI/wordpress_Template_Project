@@ -1,12 +1,10 @@
 #  :mortar_board: Project WordPress IHM
 
 # Présentation du Project :
- <p>
   Création d'une template pour le site web de notre Ecole , Ecole Supérieure de Téchnologie 
- </p>
 # WordPress :
-----
-# Présentation  :bell: :
+
+# Présentation :bell: :
 <p>
  WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par l'entreprise américaine Automattic.
 </p>
