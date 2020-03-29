@@ -49,8 +49,5 @@ wp_enqueue_scripts('main');
 }add_action( 'wp_enqueue_scripts','addjs');
 
 
-
-
-
 ?>
 
