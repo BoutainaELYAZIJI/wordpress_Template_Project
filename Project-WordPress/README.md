@@ -6,11 +6,11 @@
  </p>
 # WordPress :
 ----
-#Présentation  :bell: :
+# Présentation  :bell: :
 <p>
  WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par l'entreprise américaine Automattic.
-<p>
-#Installation
+</p>
+# Installation :
 ## :exclamation: Installation du Mysql 
 <p>Wordpress  nécessite un système de base de données pour stocker toute sa configuration.
 Utilisez la commande Ubuntu APT pour installer le serveur MySQL.</p>
@@ -149,6 +149,5 @@ puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez
 Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de passe.</p>
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/xampp_wordpress-installation_4-1.png">
 <p>Une fois la connexion établie, le tableau de bord WordPress s’affiche.<p>
-<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/screen-themes.png">
- ##Ajouter Notre Theme : 
-   ### :one:
+<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/screen-themes.png"/>
+
