@@ -52,13 +52,6 @@
   </div>
 </div>
 <!-- end info Section -->
-<<<<<<< b2c4d0c700418737022b329612391084ad789d30
->>>>>>> 13a740028a11589ccebe30cd478d15bed51cbcd7
-
-
-
-
-
 
 <!-- About Section -->
 <div class="services-section">
@@ -132,15 +125,16 @@
 </div>
 
 
-=======
 <!--administration Section -->
 <?php if( have_rows('prof') ): ?>
   <?php $hero=get_field('proffeseur');?> 
   <div class="w3-container " style="padding:128px 16px" id="team">
-  <h3 class="w3-center "><?php echo $hero['titre'];?></h3>
+  <h1 class="section-title-1 "><?php echo $hero['titre'];?></h1>
+  <div class="border"></div>
   <p class="w3-center w3-large"><?php echo $hero['sous_titre'];?></p>
-  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+  <div class="w3-row-padding" style="margin-top:64px">
   <?php while( have_rows('prof') ): the_row(); 
+ 
            // vars
             $image = get_sub_field('img');
             $content = get_sub_field('name');
@@ -167,11 +161,10 @@
 </div>
 <?php endif;?> 
 <!--end administration Section-->
->>>>>>> Administration
-<<<<<<< eead41281b6ad194f139e9b39095d72c837770fc
+
 <!-- Promo Section "Statistics" --> 
 <div class="containers">
-  <img src="/interfaceWP/wp-content/themes/ESTSBWP/img/course-5.jpg" alt="Notebook" style="width:100%; height:500px;">
+  <img src="/interfaceWP/wp-content/themes/ESTSBTemplate/Project-WordPress/img/course-5.jpg" alt="Notebook" style="width:100%; height:500px;">
   <div class="content">
      <h1 class="section-title-1">Ecole supérieure de technologie Sidi Bennour</h1>
     <p>Un établissement public d’enseignement supérieur à finalité de formation 
@@ -226,9 +219,8 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
   </div>
   <?php endif;?>
  
-=======
 
->>>>>>> Front-Page
+
 <!-- Modal for full size images on click-->
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
@@ -238,17 +230,15 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
   </div>
 </div>
 
-<<<<<<< eead41281b6ad194f139e9b39095d72c837770fc
-=======
 <!-- Skills Section -->
 <div class="w3-container  w3-padding-64">
   <div class="w3-row-padding">  
-  <h3 class="w3-center">ARTICLE</h3>
+  <h1 class="section-title-1">Article</h1>
+        <div class="border"></div>
 	<section id="primary" class="content-area">
 		<div id="content" class="site-content" role="main">
 
-		  <!-- Posts
-                  ============================================= -->
+		  <!-- Posts-->
                   <div class="w3-row">
                   <?php
     $args = array(
@@ -290,7 +280,8 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
 </div>
 <!-- Container (Contact Section) -->
 <div class="w3-container w3-light-grey " style="padding:128px 16px" id="contact">
-  <h3 class="w3-center">CONTACT</h3>
+  <h1 class="section-title-1">Contact</h1>
+        <div class="border"></div>
   <p class="w3-center w3-large">Envoyer vote opinion  dans un message</p>
   <div class="row">
     <div class="col-sm-5 ">
@@ -324,4 +315,3 @@ Sa vocation est de former des Techniciens Supérieurs polyvalents, hautement qua
 <br>
 <?php get_footer(); ?>
 
->>>>>>> Front-Page
