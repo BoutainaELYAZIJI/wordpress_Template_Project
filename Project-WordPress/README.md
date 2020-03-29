@@ -1,8 +1,16 @@
-# Project_WordPress
+#  :mortar_board: Project WordPress IHM
 
-# Installation
-
-
+# Présentation du Project :
+ <p>
+  Création d'une template pour le site web de notre Ecole , Ecole Supérieure de Téchnologie 
+ </p>
+# WordPress :
+----
+#Présentation  :bell: :
+<p>
+ WordPress est un système de gestion de contenu gratuit, libre et open-source. Ce logiciel écrit en PHP repose sur une base de données MySQL et est distribué par l'entreprise américaine Automattic.
+<p>
+#Installation
 ## :exclamation: Installation du Mysql 
 <p>Wordpress  nécessite un système de base de données pour stocker toute sa configuration.
 Utilisez la commande Ubuntu APT pour installer le serveur MySQL.</p>
@@ -129,6 +137,7 @@ Ouvrez votre navigateur et entrez l'adresse IP de votre serveur Web plus / wordp
 
 Dans notre exemple, l'URL suivante a été entrée dans le navigateur:
 
+
  :point_right:   http://192.168.1.102/wordpress
 
 <p>L'assistant d'installation de WordPress sera présenté.</p>
@@ -141,3 +150,5 @@ Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de 
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/xampp_wordpress-installation_4-1.png">
 <p>Une fois la connexion établie, le tableau de bord WordPress s’affiche.<p>
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/screen-themes.png">
+ ##Ajouter Notre Theme : 
+   ### :one:
