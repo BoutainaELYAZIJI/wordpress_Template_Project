@@ -6,20 +6,22 @@
 
 <div class="slideshow-container">
 
+  \ESTSBTemplate\Project-WordPress\img
+
 <!-- Full-width images with number and caption text -->
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="/interfaceWP/wp-content/themes/ESTSBWP/img/bg_1.jpg" style="width:100%">
+  <img src="/interfaceWP/wp-content/themes/ESTSBTemplate/Project-WordPress/img/bg_1.jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="/interfaceWP/wp-content/themes/ESTSBWP/img/bg_2.jpg" style="width:100%">
+  <img src="/interfaceWP/wp-content/themes/ESTSBTemplate/Project-WordPress/img/bg_2.jpg" style="width:100%">
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext"></div>
-  <img src="/interfaceWP/wp-content/themes/ESTSBWP/img/bg_3.jpg" style="width:100%">
+  <img src="/interfaceWP/wp-content/themes/ESTSBTemplate/Project-WordPress/img/bg_3.jpg" style="width:100%">
 </div>
 <!-- Next and previous buttons -->
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
