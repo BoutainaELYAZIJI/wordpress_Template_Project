@@ -21,7 +21,7 @@ Utilisez la commande Ubuntu APT pour installer le serveur MySQL.</p>
 *  Donnez le contrôle total sur la base de données wordpress à l'utilisateur wordpress.
 
 #### CREATE DATABASE 
->  * wordpress CHARACTER SET UTF8 COLLATE UTF8_BIN;
+> * wordpress CHARACTER SET UTF8 COLLATE UTF8_BIN;
 > * CREATE USER 'wordpress'@'%' IDENTIFIED BY 'sokaina';
 > * GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'%';
 > * FLUSH PRIVILEGES;
@@ -32,16 +32,19 @@ Utilisez la commande Ubuntu APT pour installer le serveur MySQL.</p>
  WordPress nécessite un serveur Web avec support PHP pour présenter ses pages Web.
 Utilisez la commande Ubuntu APT pour installer le serveur Apache.
 </p>
-> * apt-get update
-> * apt-get install apache2 php7.2 php7.2-mysql libapache2-mod-php7.2
-> * service apache2 restar
+<ul>
+ <li> apt-get update </li>
+ <li> apt-get install apache2 php7.2 php7.2-mysql libapache2-mod-php7.2 </li>
+ <li> service apache2 restar </li>
+ </ul>
 <p>
 Optionnel Utilisez la commande suivante pour installer les modules PHP les plus utilisés d’Apache.
 </p>
->* apt-get install php7.2-xml php7.2-curl php7.2-gd php7.2-mbstring
->* apt-get install php7.2-bz2 php7.2-zip php7.2-xml php7.2-curl
->* apt-get install php7.2-json php7.2-opcache php7.2-readline
-
+<ul>
+<li> apt-get install php7.2-xml php7.2-curl php7.2-gd php7.2-mbstring <li>
+<li> apt-get install php7.2-bz2 php7.2-zip php7.2-xml php7.2-curl </li>
+<li> apt-get install php7.2-json php7.2-opcache php7.2-readline </li>
+<ul>
 <p>
 Optionnel Utilisez la commande suivante pour activer apache mod_rewrite et SSL.
 Activez le module SSL uniquement si vous envisagez de proposer du contenu HTTPS.
