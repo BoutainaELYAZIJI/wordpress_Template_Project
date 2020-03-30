@@ -146,6 +146,15 @@ puis vous devrez entrer les informations de votre site Web ,aprés vous recevrez
 <p>
 Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de passe.</p>
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/xampp_wordpress-installation_4-1.png">
-<p>Une fois la connexion établie, le tableau de bord WordPress s’affiche.<p>
-<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/screen-themes.png"/>
+<p>Une fois la connexion établie, le tableau de bord WordPress s’affiche.</p>
+<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/screen-themes.png">
 
+## Utilisation du Notre Projet :
+###  :one: :
+    Télecharger ce fichier 
+### :two: :
+    Ajouter ce théme à les thémes de votre Wordpress 
+### :three: :
+<p> :memo: Ajouter Ce Existence "advanced-custom-fields-pro.zip" et Activer le .</p>
+<p>   :arrow_right_hook: Vous trouver dans le menu de Wordpress une icone ACD . <p>
+<p>    :pencil2: Pour Modifier la page d'accueil vous trvouver quelque élemnet dans l'apage d'accueil que vous avez crée pour le modifier selon votre besoin . </p>
