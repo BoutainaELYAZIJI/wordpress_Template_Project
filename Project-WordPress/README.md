@@ -159,7 +159,7 @@ Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de 
    :arrow_right_hook: Vous trouver dans le menu de Wordpress une icone ACD . 
    :pencil2: Pour Modifier la page d'accueil vous trvouver quelque élemnet   :clipboard: dans l'apage d'accueil que vous avez crée pour le modifier selon votre besoin .
 ### Screen de Page de Notre Thémes :camera: :
-<p>
+
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB.png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(1).png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(2)%20(1).png">
@@ -167,8 +167,8 @@ Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de 
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(3).png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(4).png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(5).png">
-<p>
-### Conclusion : 
+ 
+###  Conclusion  : 
 Nous tenons à remercier notre chére Professeur Mr Baddi Youssef , Doctorant et Professeur assistant à L'école supérieure de téchnologie , pour leur soutien , encadrant anisi le partage de l'inforamtion , et grace à lui on a cette opportunité d'améliorer nos compétences et de connaître les nouvelles technologies comme ces géantes que nous travaillé sur elle  :pray: :pray: :pray: :pray: .
  
  
