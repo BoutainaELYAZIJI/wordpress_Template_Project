@@ -155,9 +155,9 @@ Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de 
 ### :two: :
    Ajouter ce théme à les thémes de votre Wordpress 
 ### :three: :
-   :memo: Ajouter Ce Existence "advanced-custom-fields-pro.zip" et Activer le 
-   :arrow_right_hook: Vous trouver dans le menu de Wordpress une icone ACD . 
-   :pencil2: Pour Modifier la page d'accueil vous trvouver quelque élemnet   :clipboard: dans l'apage d'accueil que vous avez crée pour le modifier selon votre besoin .
+  :memo: Ajouter Ce Existence "advanced-custom-fields-pro.zip" et Activer le <br>
+  :arrow_right_hook: Vous trouver dans le menu de Wordpress une icone ACF . <br>
+  :pencil2: Pour Modifier la page d'accueil vous trvouver quelque élemnet   :clipboard: dans l'apage d'accueil que vous avez remblire pour l'avoire dans  la page d'aacuiel ainsi il y a un aspace pour les articles donc vous pouvez l'ajouter 
 ### Screen de Page de Notre Thémes :camera: :
 
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB.png">
