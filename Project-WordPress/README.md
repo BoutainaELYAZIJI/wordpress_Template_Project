@@ -165,6 +165,7 @@ Cliquez sur le bouton Connexion et entrez le compte administrateur et le mot de 
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(2)%20(1).png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(2).png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(3).png">
+<img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-30%20ESTSB.png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(4).png">
 <img src="https://github.com/BouTaina11/wordpress_Template_Project/blob/master/Project-WordPress/img/Screenshot_2020-03-29%20ESTSB(5).png">
  
